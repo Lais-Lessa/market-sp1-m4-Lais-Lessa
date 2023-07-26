@@ -1,0 +1,19 @@
+{
+  "name": "market-sp1-m4-lais-lessa",
+  "version": "1.0.0",
+  "description": "Recebemos uma demanda para realizar a criação de uma API REST. Essa API será utilizada para organização do estoque de uma startup em processo de testes que pretende se transformar em uma rede de mercados autônomos (Smart Store). Hoje o mercado trabalha com apenas dois tipos de produtos: **comida** e **limpeza**.",
+  "main": "app.ts",
+  "scripts": {
+    "start": "ts-node-dev --respawn --rs --transpile-only src/app.ts"
+  },
+  "author": "Lais Lessa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.6"
+  }
+}
