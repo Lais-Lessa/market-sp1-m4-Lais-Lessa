@@ -4,7 +4,7 @@
   "description": "Recebemos uma demanda para realizar a criação de uma API REST. Essa API será utilizada para organização do estoque de uma startup em processo de testes que pretende se transformar em uma rede de mercados autônomos (Smart Store). Hoje o mercado trabalha com apenas dois tipos de produtos: **comida** e **limpeza**.",
   "main": "app.ts",
   "scripts": {
-    "start": "ts-node-dev --respawn --rs --transpile-only src/app.ts"
+    "dev": "ts-node-dev --cls --rs --ignore-watch node_modules src/app.ts"
   },
   "author": "Lais Lessa",
   "license": "ISC",
